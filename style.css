@@ -18,10 +18,33 @@ section{
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: url(https://scontent.fmnl4-5.fna.fbcdn.net/v/t39.30808-6/321026251_629555378925695_6923805284678750329_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeGPGX45tgxD9v1jwOs49rwr1idgUqEiTXPWJ2BSoSJNc7-sklDXhnvaA0XGhUnxFmaymEZQPENIux45bxixgcFu&_nc_ohc=bdOxVFVk-WIAX90kXtD&_nc_ht=scontent.fmnl4-5.fna&oh=00_AfBM6aIs5OFXvPrhEsc2A4aIV5YrqtcKjGn5DhO4BvShLw&oe=65B0CE22)no-repeat;
+  background: url(src\415295110_6466015300164548_6371782842341876310_n-removebg-preview.png) no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+}
+
+body.dark-mode {
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+header.dark-mode {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+
+.dark-mode-button {
+  background-color: #3a6cf4;
+  color: #fff;
+}
+
+
+
+
+#icon{
+  width: 30px;
+  cursor: pointer;
 }
 
 .main .content{
@@ -29,7 +52,7 @@ section{
 }
 
 .main .content h2{
-  color: #fff;
+  color: #3a6cf4;
   font-size: 2em;
   font-weight: 500;
 }

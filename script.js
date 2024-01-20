@@ -50,4 +50,11 @@
               }
             }
           }
+
+          function toggleDarkMode() {
+            document.body.classList.toggle("dark-mode");
+            document.querySelector("header").classList.toggle("dark-mode");
+            // Add more elements to toggle dark mode if needed
+          }
+          
                 
