@@ -33,18 +33,17 @@ header.dark-mode {
   background: rgba(255, 255, 255, 0.1);
 }
 
-
 .dark-mode-button {
-  background-color: #3a6cf4;
   color: #fff;
+  background: none; /* Remove background color */
+  border: none; /* Remove border */
 }
 
 
-
-
-#icon{
+#icon {
   width: 30px;
   cursor: pointer;
+  background: none; /* Remove background color */
 }
 
 .main .content{
